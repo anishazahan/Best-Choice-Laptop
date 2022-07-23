@@ -2,11 +2,12 @@
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Shared/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div >
+     <Header></Header>
     </div>
   );
 }

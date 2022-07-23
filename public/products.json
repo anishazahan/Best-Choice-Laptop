@@ -1,0 +1,118 @@
+[
+
+    {
+        "id": "1",
+        "description": " A trim-to-the-max chassis, a beautiful screen, and a cutting-edge Intel 'Tiger Lake' processor help the latest Dell XPS 13 affirm its status as today's top high-end ultraportable. ",
+        "img": "https://i.pcmag.com/imagery/reviews/05l2EoHgxLKDb5dq2UGTpdR-17.fit_lim.size_238x139.v1604675195.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/05l2EoHgxLKDb5dq2UGTpdR-17.fit_scale.size_1028x578.v1604675195.jpg",
+        "name": "Dell XPS 13 (9310)",
+        "ratings": "4.5",
+        "rate": "1619.00"
+      },
+    {
+        "id": "2",
+        "description": "The Lenovo IdeaPad 3 14 is a knockout budget laptop, with excellent performance and a bevy of modern trappings that almost make you forget it rings up at less than $600. ",
+        "img": "https://i.pcmag.com/imagery/reviews/0674w0QBjvMdOZlsdEsI6Dk-1.fit_lim.size_238x139.v1637181698.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/0674w0QBjvMdOZlsdEsI6Dk-1.fit_scale.size_1028x578.v1637181698.jpg",
+        "name": "Lenovo IdeaPad 3 14",
+        "ratings": "4",
+        "rate": "505.00"
+      },
+    {
+        "id": "3",
+        "description": "It's pricey for a Chromebook, but Acer's Chromebook Spin 713 remains a world-class alternative to Windows convertibles. ",
+        "img": "https://i.pcmag.com/imagery/reviews/02ddU4YREqSWvliJ8tWFNww-1.fit_lim.size_238x139.v1644978400.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/02ddU4YREqSWvliJ8tWFNww-1.fit_scale.size_1028x578.v1644978400.jpg",
+        "name": "Acer Chromebook Spin 713 (2022)",
+        "ratings": "4.5",
+        "rate": "549.00"
+      },
+    {
+        "id": "4",
+        "description": "A 12th Gen Intel CPU, a sharper webcam, and more display options cement the Lenovo ThinkPad X1 Carbon's place as the finest laptop for business—and likely the finest laptop, period.",
+        "img": "https://i.pcmag.com/imagery/reviews/04nwrNt8d5J58uOPDhHfRiP-1.fit_lim.size_238x139.v1657903935.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/04nwrNt8d5J58uOPDhHfRiP-1.fit_scale.size_1028x578.v1657903935.jpg",
+        "name": "Lenovo ThinkPad X1 Carbon Gen 10 (2022))",
+        "ratings": "5",
+        "rate": "1439.00"
+      },
+    {
+        "id": "5",
+        "description": "It's pricey for a Chromebook, but Acer's Chromebook Spin 713 remains a world-class alternative to Windows convertibles.",
+        "img": "https://i.pcmag.com/imagery/reviews/02ddU4YREqSWvliJ8tWFNww-1.fit_lim.size_238x139.v1644978400.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/02ddU4YREqSWvliJ8tWFNww-1.fit_scale.size_1028x578.v1644978400.jpg",
+        "name": "Acer Chromebook Spin 713 (2022)",
+        "ratings": "4",
+        "rate": "549.00"
+      },
+    {
+        "id": "6",
+        "description": "A 12th Gen Intel CPU, a sharper webcam, and more display options cement the Lenovo ThinkPad X1 Carbon's place as the finest laptop for business—and likely the finest laptop, period.",
+        "img": "https://i.pcmag.com/imagery/reviews/04nwrNt8d5J58uOPDhHfRiP-1.fit_lim.size_238x139.v1657903935.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/04nwrNt8d5J58uOPDhHfRiP-1.fit_scale.size_1028x578.v1657903935.jpg",
+        "name": "Lenovo ThinkPad X1 Carbon Gen 10 (2022)",
+        "ratings": "5",
+        "rate": "1433.00"
+      },
+    {
+        "id": "7",
+        "description": "The Inspiron 16 Plus (7610) is a top-notch value in a burgeoning category of laptops with 16-inch displays, capable Intel H-series CPUs, and Nvidia GeForce RTX graphics.",
+        "img": "https://i.pcmag.com/imagery/reviews/04xYvayiOeQO4WuedthUQM7-1.fit_lim.size_238x139.v1629910058.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/04xYvayiOeQO4WuedthUQM7-1.fit_scale.size_1028x578.v1629910058.jpg",
+        "name": "Dell Inspiron 16 Plus (7610)",
+        "ratings": "4.5",
+        "rate": "999.00"
+      },
+    {
+        "id": "8",
+        "description": "A rotating soundbar, a cinematic OLED display, and Intel 12th Generation silicon make Lenovo's Yoga 9i Gen 7 a multimedia marvel among 14-inch 2-in-1 convertible laptops.",
+        "img": "https://i.pcmag.com/imagery/reviews/03qDnrEv0uq3CMelRB2yak8-1.fit_lim.size_238x139.v1649691858.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/03qDnrEv0uq3CMelRB2yak8-1.fit_scale.size_1028x578.v1649691858.jpg",
+        "name": "Lenovo Yoga 9i Gen 7",
+        "ratings": "4",
+        "rate": "1504.00"
+      },
+    {
+        "id": "9",
+        "description": "Microsoft's Surface Pro 8 doesn't revolutionize the iconic 2-in-1, but it delivers the most noteworthy update in years, with a larger display, an attractive chassis redesign, and improved performance.",
+        "img": "https://i.pcmag.com/imagery/reviews/02ddU4YREqSWvliJ8tWFNww-1.fit_lim.size_238x139.v1644978400.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/02ddU4YREqSWvliJ8tWFNww-1.fit_scale.size_1028x578.v1644978400.jpg",
+        "name": "Microsoft Surface Pro 8",
+        "ratings": "4",
+        "rate": "899.00"
+      },
+    {
+        "id": "10",
+        "description": "The 2022 version of Apple's MacBook Air gets a fresh look and the more powerful M2 processor, making it Apple’s best ultraportable laptop yet.",
+        "img": "https://i.pcmag.com/imagery/reviews/01mBttlv1qMiXYpc1bfOj1h-1.fit_lim.size_238x139.v1657726621.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/01mBttlv1qMiXYpc1bfOj1h-1.fit_scale.size_1028x578.v1657726621.jpg",
+        "name": "Apple MacBook Air (2022, M2)",
+        "ratings": "4.5",
+        "rate": "1229.00"
+      },
+    {
+        "id": "11",
+        "description": "MSI's Katana GF66 is a well-priced, well-rounded budget gaming laptop that cuts competing models down to size.",
+        "img": "https://i.pcmag.com/imagery/reviews/07FMJxND7Ck3AGe97FaZOek-1.fit_lim.size_238x139.v1640182987.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/07FMJxND7Ck3AGe97FaZOek-1.fit_scale.size_1028x578.v1640182987.jpg",
+        "name": "MSI Katana GF66",
+        "ratings": "4",
+        "rate": "1269.00"
+      },
+    {
+        "id": "12",
+        "description": "Acer's Predator Triton 300 SE will make major waves among gaming laptops, with its trim design and punchy RTX 3060 gaming performance at an aggressive price.",
+        "img": "https://i.pcmag.com/imagery/reviews/05OwUpCaDWZXtvSDghGhUQH-14.fit_lim.size_238x139.v1616438085.jpg",
+        "details-img": "https://i.pcmag.com/imagery/reviews/05OwUpCaDWZXtvSDghGhUQH-14.fit_scale.size_1028x578.v1616438085.jpg",
+        "name": "Acer Predator Triton 300 SE",
+        "ratings": "4.5",
+        "rate": "1349.00"
+      }
+
+
+]
+
+
+
+
+

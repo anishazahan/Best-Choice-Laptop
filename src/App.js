@@ -10,6 +10,7 @@ import Service from './Pages/Services/Service';
 import Login from './Shared/Header/Login';
 import SignUp from './Shared/Header/SignUp';
 import Contact from './Pages/Contact/Contact';
+import Notfound from './Shared/NotFound/Notfound';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Route path='/contact' element={<Contact></Contact>}></Route>
     <Route path='/login' element={<Login></Login>}></Route>
     <Route path='/signUp' element={<SignUp></SignUp>}></Route>
+    <Route path='*' element={<Notfound></Notfound>}></Route>
      </Routes>
     </div>
   );

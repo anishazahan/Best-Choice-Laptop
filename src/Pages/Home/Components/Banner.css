@@ -1,0 +1,17 @@
+
+
+
+/* .banner{
+    width: 100%;
+   min-height: 90vh;
+    background-image: url("../../../img/online-shopping-concept-shopping-cart-laptop-carton-boxes-e-commerce-big-sales-3d-rendering_634053-7\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+} */
+.banner-heading{
+    padding-top: 5%;
+    font-weight: 700;
+    font-size: 45px;
+    color: #B85C38;
+}

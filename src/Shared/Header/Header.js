@@ -13,7 +13,7 @@ const Header = () => {
        <Container>
 
        
-        <Navbar.Brand href="#home">Best Choice</Navbar.Brand>
+        <Navbar.Brand className='fw-bold fs-4' Link ='/'>Best Choice</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">

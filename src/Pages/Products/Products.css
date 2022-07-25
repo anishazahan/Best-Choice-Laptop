@@ -3,10 +3,10 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-  grid-gap: 20px;
-    max-width: 1250px;
-    margin: auto;
-    padding: 0 5% ;
+  grid-gap: 10px;
+  
+   
+    padding-right: 2rem;
 }
 .button {
    
@@ -28,3 +28,17 @@
         font-size: 20px;
         color: black;
     }
+    .cateogory-btn{
+        width: 100%;
+        padding: 15px 0;
+        color: rgba(0, 0, 0, 0.52);
+        background-color: rgba(128, 128, 128, 0.109);
+       
+        border: 2px solid rgba(128, 128, 128, 0.585);
+        border-left: none;
+        border-right: none;
+    }
+    .product-background{
+        background: rgba(221, 221, 221, 0.271);
+    }
+   

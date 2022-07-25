@@ -4,7 +4,7 @@ import './Products.css'
 const SingleProduct = ({product}) => {
     const {img,name,description,ratings,rate}=product;
   return (
-    <div className='shadow relative'>
+    <div className='shadow relative bg-white'>
         <img className='w-100' src={img} alt="" />
         <div className="p-3">
         <h5>{name}</h5>

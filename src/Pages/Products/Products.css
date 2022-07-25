@@ -8,3 +8,23 @@
     margin: auto;
     padding: 0 5% ;
 }
+.button {
+   
+    padding: 10px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+    
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.79);
+    background-color: #A12559;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+    .price{
+        font-size: 20px;
+        color: black;
+    }

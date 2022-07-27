@@ -7,7 +7,7 @@ const SingleProduct = ({product}) => {
     <div className='shadow relative bg-white'>
         <img className='w-100' src={img} alt="" />
         <div className="p-3">
-        <h5>{name}</h5>
+        <h6 className='single-product-name'>{name}</h6>
         <div className='text-muted'>
         <p className='m-0'>{ratings}</p>
         <p className='mb-2 fw-bold price'>{rate}$</p>

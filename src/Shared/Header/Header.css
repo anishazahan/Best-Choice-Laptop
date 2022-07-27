@@ -1,6 +1,57 @@
 .menu{
     text-decoration: none;
-    color: wheat;
-    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.62);
+    padding: 0 15px 10px 15px;
     font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.logo{
+    width: 300px;
+    height: auto;
+}
+.navItem{
+    margin-top: -4rem;
+}
+.header{
+    margin-top: -1rem;
+}
+.signUp-btn{
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #A12559;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: rgba(0, 0, 0, 0.62);
+    font-weight: 500;
+}
+.login-btn{
+    padding: 7px 20px;
+    font-size: 15px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    text-decoration: none;
+    margin-right: 1rem;
+    color: rgba(0, 0, 0, 0.82);
+    font-weight: 500;
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.162);
+}
+.search{
+    margin-right: 22rem;
+    margin-top: 2.5rem;
+}
+.search-field{
+    padding: 7px 150px 7px 20px;
+    border: 1px solid #704a86;
+    border-right: none;
+    border-radius: 40px 0 0 40px;
+}
+.search-btn{
+    padding: 7px 20px 7px 40px;
+    border-left: none;
+    background-color: #a12559d1;
+    color: bisque;
+    border-radius: 0 40px 40px 0;
+    border: 1px solid #704a86;
 }

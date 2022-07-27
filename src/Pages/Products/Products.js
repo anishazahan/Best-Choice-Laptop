@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import SingleProduct from './SingleProduct';
 import './Products.css'
+import{Link} from 'react-router-dom'
 import Table from 'react-bootstrap/Table';
 const Products = () => {
 
-
+    const [allProducts,setAllProducts] = useState(false);
     const [products,setProducts] = useState([]);
     useEffect(()=>{
         fetch('products.json')
@@ -14,6 +15,7 @@ const Products = () => {
   return (
    <div className="product-background">
     <h4 className='text-center my-5'>Feature products!!</h4>
+     <div className="container">
      <div className="row">
         <div className="col-md-2 col-sm-3 mr-0 ">
           
@@ -51,11 +53,24 @@ const Products = () => {
         </div>
         <div className="col-md-10 col-sm-9 ml-0">
         <div className='products-container'>
+
        {
+        !allProducts && 
+        products.map(product=><SingleProduct key={product.id} product={product}></SingleProduct>).slice(0,6)
+       }
+
+       {
+        allProducts &&
         products.map(product=><SingleProduct key={product.id} product={product}></SingleProduct>)
        }
     </div>
+    <div className="mr-auto my-5 see-more-btn">
+        <button onClick={()=>{setAllProducts(!allProducts)}}>{allProducts? 'see less':'See More'}</button>
+    </div>
+
+
         </div>
+     </div>
      </div>
    </div>
   )

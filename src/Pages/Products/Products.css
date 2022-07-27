@@ -2,15 +2,16 @@
 
 .products-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-  grid-gap: 10px;
-  
+    grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  /* background: url(../../img/test-bg.jpg); */
+ 
    
   margin: auto;
 }
 .button {
    
-    padding: 10px 15px;
+    padding: 8px 10px;
     font-size: 11px;
     text-transform: uppercase;
     
@@ -30,11 +31,29 @@
     }
   
     .product-background{
-        background: rgba(221, 221, 221, 0.271);
+        background: rgba(128, 128, 128, 0.042);
         padding: 1.5rem;
     }
     .sm-table{
         display: none;
+    }
+    td{
+        font-size: 14px;
+        color: gray;
+    }
+    .single-product-name{
+        color: rgba(0, 0, 0, 0.82);
+    }
+    .see-more-btn{
+      text-align: right;
+
+    }
+    .seeMoreBtn{
+        color: #A12559;
+        
+    }
+    .seeMoreBtn:hover{
+        color: gray;
     }
    
    

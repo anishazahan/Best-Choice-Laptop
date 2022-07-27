@@ -15,10 +15,10 @@ const Products = () => {
    <div className="product-background">
     <h4 className='text-center my-5'>Feature products!!</h4>
      <div className="row">
-        <div className="col-lg-2 mr-0 ">
+        <div className="col-md-2 col-sm-3 mr-0 ">
           
-        <Table responsive="sm" className='border'>
-        <thead className='border'>
+        <Table responsive="sm" className='border border-sm-0 lg-table'>
+        <thead className='border border-sm-0'>
           <tr>
            
             <th>All Cateogories</th>
@@ -37,10 +37,19 @@ const Products = () => {
          
         </tbody>
       </Table>
-     
-           
+
+      <div className="sm-table">
+        <h5>ALl cateogories</h5>
+        <div className="D-flex my-3 ">
+            <button className='cateogory-btn'>Laptop</button>
+            <button className='cateogory-btn'>Mobile</button>
+            <button className='cateogory-btn'>Watch</button>
         </div>
-        <div className="col-lg-10 ml-0">
+      
+      </div>
+     
+        </div>
+        <div className="col-md-10 col-sm-9 ml-0">
         <div className='products-container'>
        {
         products.map(product=><SingleProduct key={product.id} product={product}></SingleProduct>)

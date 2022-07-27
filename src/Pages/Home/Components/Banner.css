@@ -12,7 +12,7 @@
   
 }
 .banner-heading{
-    padding-top: 10%;
+    padding-top: 8%;
     font-weight: 600;
     font-size: 40px;
     color: #443737d5;
@@ -21,21 +21,25 @@
 .banner-content{
     padding-left: 4%;
     color: gray;
-    font-weight: 500;
+    font-weight: 300;
     padding-top: 1rem;
-    line-height: 1.8rem;
+    line-height: 2rem;
 }
 .specific-banner-content{
     color: #A12559;
     font-weight: 700;
 }
+.last-content{
+    padding-left: 4%;
+    padding-top: 2%;
+}
 .btn-group{
     padding-left: 4%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 .explore-btn{
     margin-right: 1.5rem;
-    padding: 10px 15px;
+    padding: 5px 15px;
     border: none;
     outline: none;
     font-weight: 500;

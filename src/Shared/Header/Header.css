@@ -1,7 +1,7 @@
 .menu{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.62);
-    padding: 0 15px 10px 15px;
+    padding: 0 15px 5px 15px;
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
@@ -12,10 +12,13 @@
     height: auto;
 }
 .navItem{
-    margin-top: -4rem;
+    margin-top: -5rem;
+    margin-left: 15rem;
 }
 .header{
     margin-top: -1rem;
+    max-width: 1300px;
+    margin: auto;
 }
 .signUp-btn{
     padding: 5px 10px;
@@ -55,3 +58,26 @@
     border-radius: 0 40px 40px 0;
     border: 1px solid #704a86;
 }
+.search-btn:hover{
+    background-color: #a1255982;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1300px) {
+   .menu{
+    margin-left: auto;
+   }
+}
+
+
+
+
+

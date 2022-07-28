@@ -1,8 +1,16 @@
 import React from 'react'
 import './Products.css'
+import { useNavigate } from "react-router-dom";
 
 const SingleProduct = ({product}) => {
-    const {img,name,description,ratings,rate}=product;
+    const {img,name,description,ratings,rate,id}=product;
+    const navigate = useNavigate();
+    const navigateToProductsDetails = ()=>{
+        navigate(`/products/${id}`)
+
+    }
+
+
   return (
     <div className='shadow relative bg-white'>
         <img className='w-100' src={img} alt="" />
@@ -13,7 +21,7 @@ const SingleProduct = ({product}) => {
         <p className='mb-2 fw-bold price'>{rate}$</p>
         <div className="d-flex justify-content-between mb-2">
             <button className='button'>Buy Now</button>
-            <button className='button'>See Details</button>
+            <button onClick={()=>navigateToProductsDetails(id)} className='button'>See Details</button>
         </div>
         </div>
         </div>

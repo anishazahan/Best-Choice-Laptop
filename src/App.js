@@ -12,6 +12,7 @@ import SignUp from './Shared/Header/SignUp';
 import Contact from './Pages/Contact/Contact';
 import Notfound from './Shared/NotFound/Notfound';
 import ProductsDeatails from './Pages/Products/ProductsDeatails';
+import AddProduct from './Pages/Products/AddProduct';
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
     <Route path='/' element={<Home></Home>}></Route>
     <Route path='/about' element={<About></About>}></Route>
     <Route path='/products' element={<Products></Products>}></Route>
-    <Route path='/products/:productsDetails' element={<ProductsDeatails></ProductsDeatails>}></Route>
+    <Route path='/products/:productsDetailsID' element={<ProductsDeatails></ProductsDeatails>}></Route>
     <Route path='/services' element={<Service></Service>}></Route>
+    <Route path='/addProduct' element={<AddProduct></AddProduct>}></Route>
     <Route path='/contact' element={<Contact></Contact>}></Route>
     <Route path='/login' element={<Login></Login>}></Route>
     <Route path='/signUp' element={<SignUp></SignUp>}></Route>

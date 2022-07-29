@@ -21,7 +21,7 @@ const Header = () => {
 
     <div className="d-flex justify-content-between ">
         <div className="">
-            <img className='logo' src={logo} alt="" />
+            <img className='logo border' src={logo} alt="" />
         </div>
         <div className="search">
             <input type="search" className='search-field' placeholder='Search Your Products' /><button className='search-btn'>Search</button>
@@ -49,6 +49,7 @@ const Header = () => {
             <Link className='menu' to ='About'>About</Link>
             <Link className='menu' to ='products'>Products</Link>
             <Link className='menu' to ='services'>Services</Link>
+            <Link className='menu' to ='addProduct'>Add Products</Link>
             <Link className='menu' to ='contact'>Contact</Link>
           
           </Nav>

@@ -8,7 +8,7 @@ const Products = () => {
     const [allProducts,setAllProducts] = useState(false);
     const [products,setProducts] = useState([]);
     useEffect(()=>{
-        fetch('products.json')
+        fetch('http://localhost:5000/product')
         .then(res=>res.json())
         .then(data=>setProducts(data));
     },[])
@@ -56,12 +56,12 @@ const Products = () => {
 
        {
         !allProducts && 
-        products.map(product=><SingleProduct key={product.id} product={product}></SingleProduct>).slice(0,6)
+        products.map(product=><SingleProduct key={product._id} product={product}></SingleProduct>).slice(0,6)
        }
 
        {
         allProducts &&
-        products.map(product=><SingleProduct key={product.id} product={product}></SingleProduct>)
+        products.map(product=><SingleProduct key={product._id} product={product}></SingleProduct>)
        }
     </div>
     <div className="mr-auto my-5 see-more-btn">

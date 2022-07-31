@@ -44,7 +44,7 @@ const Header = () => {
         {/* <Navbar.Brand className='fw-bold fs-4' Link ='/'>Best Choice</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto">
+          <Nav className="ms-auto">
             <Link className='menu' to ='/' >Home</Link>
             <Link className='menu' to ='About'>About</Link>
             <Link className='menu' to ='products'>Products</Link>

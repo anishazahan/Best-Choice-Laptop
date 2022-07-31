@@ -8,15 +8,15 @@
     letter-spacing: 3px;
 }
 .logo{
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 .navItem{
-    margin-top: -5rem;
-    margin-left: 15rem;
+    /* margin-top: -5rem; */
+    /* margin-left: 15rem; */
 }
 .header{
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
     max-width: 1300px;
     margin: auto;
 }

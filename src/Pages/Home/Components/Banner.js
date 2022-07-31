@@ -5,7 +5,7 @@ import './Banner.css'
 const Banner = () => {
   return (
     <div className='banner' >
-        <div className="banner-content h-100  text-left">
+        <div className="banner-content  text-left">
             
             <h2 className='banner-heading'>Best Laptop of Your Best <span className='specific-banner-content'>Choice!!</span> </h2>
             <p className='banner-content'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, iste velit  incidunt sequi <br/> iusto molestiae? Architecto praesentium sint inventore placeat.</p>

@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Header.css'
 import {Link} from 'react-router-dom'
 import logo from '../../../src/img/logo.png'
+// import { BsHeart} from "@react-icons/all-files/fa/BsHeart";
 
 const Header = () => {
   return (
@@ -19,18 +20,20 @@ const Header = () => {
     <div className="header">
 {/* ......................top header................... */}
 
-    <div className="d-flex justify-content-between ">
-        <div className="">
-            <img className='logo border' src={logo} alt="" />
+    <div className="top-header ">
+        <div className="logo-container">
+            <img className='logo' src={logo} alt="" />
         </div>
-        <div className="search">
+        <div className="search mt-4">
             <input type="search" className='search-field' placeholder='Search Your Products' /><button className='search-btn'>Search</button>
         </div>
-        <div className="d-flex justify-content-around mt-3">
-            <p>cart</p>
-            <p>wishlist</p>
-            <p>profie</p>
-            <p>Price</p>
+        <div className=" side-menu-cart d-flex  mt-4">
+           
+            {/* <p> <BsHeart/> wishlist</p> */}
+            <p className='side-menu'>profie</p>
+            <p className='side-menu'>Price</p>
+            <p className='side-menu'>cart</p>
+            <p className='side-menu'>wishlisht</p>
         </div>
     </div>
 
@@ -42,7 +45,7 @@ const Header = () => {
    <Navbar collapseOnSelect expand="lg" className='navItem'>
      
         {/* <Navbar.Brand className='fw-bold fs-4' Link ='/'>Best Choice</Navbar.Brand> */}
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggole-btn' />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Link className='menu' to ='/' >Home</Link>
@@ -51,11 +54,12 @@ const Header = () => {
             <Link className='menu' to ='services'>Services</Link>
             <Link className='menu' to ='addProduct'>Add Products</Link>
             <Link className='menu' to ='contact'>Contact</Link>
+            
           
           </Nav>
           <Nav>
           <Link className=' login-btn' to ='Login'>Login</Link>
-            <Link className=' signUp-btn' to ='SignUp'>Sign Up</Link>
+            <Link className=' signUp-btn' to ='SignUp'>Sign Out</Link>
           </Nav>
         </Navbar.Collapse>
        

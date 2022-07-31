@@ -3,12 +3,13 @@
 
 .banner{
     width: 100%;
-    height: 80vh;
+   height: 80vh;
     background-image: url("../../../img/main-banner-01__29747.jpg ");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10%;
     position: relative;
+    
   
 }
 .banner-heading{
@@ -16,25 +17,28 @@
     font-weight: 600;
     font-size: 40px;
     color: #443737d5;
-    padding-left: 4%;
+    padding-left: 3%;
 }
 .banner-content{
-    padding-left: 4%;
+    padding-left: 3%;
     color: gray;
     font-weight: 300;
     padding-top: 1rem;
     line-height: 2rem;
+    max-width: 1300px;
+    margin: auto;
 }
 .specific-banner-content{
     color: #A12559;
     font-weight: 700;
 }
 .last-content{
-    padding-left: 4%;
+    padding-left: 3%;
     padding-top: 2%;
+    margin-bottom: 2%;
 }
 .btn-group{
-    padding-left: 4%;
+    padding-left: 3%;
     margin-top: 1.5rem;
 }
 .explore-btn{
@@ -76,9 +80,8 @@
 .bottom-banner{
     width: 80%;
     margin: auto;
-   
-    margin-top: -4rem;
 }
+
 .bottom-img{
     margin: auto;
     width: 100%;

@@ -1,7 +1,18 @@
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggole-btn{
+    margin-top: -1rem;
+}
+
+
 .menu{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.62);
-    padding: 0 15px 5px 15px;
+    padding: 0 10px 0px 10px;
     font-weight: 500;
     font-size: 13px;
     text-transform: uppercase;
@@ -12,13 +23,16 @@
     height: auto;
 }
 .navItem{
-    /* margin-top: -5rem; */
+    margin-top: -2rem;
     /* margin-left: 15rem; */
 }
 .header{
     /* margin-top: -1rem; */
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: auto;
+    display: block;
+    padding: 0 3%;
+    max-width: 1350px;
 }
 .signUp-btn{
     padding: 5px 10px;
@@ -35,23 +49,25 @@
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
     text-decoration: none;
     margin-right: 1rem;
-    color: rgba(0, 0, 0, 0.82);
+    color: rgba(0, 0, 0, 0.62);
     font-weight: 500;
     background-color: #fff;
     border: 1px solid rgba(128, 128, 128, 0.162);
 }
 .search{
-    margin-right: 22rem;
-    margin-top: 2.5rem;
+    /* margin-right: 22rem;
+    margin-top: 2.5rem; */
+    width: 45%;
 }
 .search-field{
-    padding: 7px 150px 7px 20px;
+    padding: 7px 10px;
     border: 1px solid #704a86;
     border-right: none;
     border-radius: 40px 0 0 40px;
+    width: 80%;
 }
 .search-btn{
-    padding: 7px 20px 7px 40px;
+    padding: 7px 17px;
     border-left: none;
     background-color: #a12559d1;
     color: bisque;
@@ -61,23 +77,80 @@
 .search-btn:hover{
     background-color: #a1255982;
 }
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:1300px) {
-   .menu{
-    margin-left: auto;
-   }
+.side-menu{
+    padding: 0 10px;
 }
 
 
 
 
+
+
+@media only screen and (max-width:1200px){
+
+    .header{
+        background-color: beige;
+    }
+    .menu{
+        
+        padding: 0 7px;
+        font-weight: 500;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+    .navItem{
+        margin-top: 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+.search{
+    display: none;
+}
+.navItem{
+    margin-top: 0;
+}
+.toggole-btn{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+   }
+.top-header{
+    display: flex;
+    justify-content: space-between;
+   }
+.side-menu{
+    /* text-align: right; */
+    /* display: inline; */
+}
+.side-menu-cart {
+    margin-left: auto ;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+
+   .logo-container{
+    margin: auto;
+    width: 100%;
+   }
+   .logo{
+    margin-left: -.3rem;
+    border: none;
+   
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+
+  
+
+}
 

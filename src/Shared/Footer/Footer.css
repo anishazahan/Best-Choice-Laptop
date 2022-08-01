@@ -159,7 +159,13 @@
 
 
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:991px){
+
+    .footer-heading{
+       
+        margin-top: 1.5rem;
+    
+    }
 
    
 
@@ -180,6 +186,38 @@
        
        margin-left: -.2rem;
         
+    }
+
+}
+@media only screen and (max-width:667px){
+
+    .last-footer-menu{
+        display: flex;
+    flex-direction: column;
+        
+    }
+
+    .last-footer-link{
+       
+        border-right: none;
+        margin: 6px 10px;
+      
+        
+    }
+    .footer-name{
+       display: block;
+       margin: auto;
+    
+    }
+    .footer-text{
+       
+        letter-spacing: 0px;
+    
+    }
+    .pay-menu{
+        padding: 0 6px;
+        font-size: 30px;
+        color: black;
     }
 
 }

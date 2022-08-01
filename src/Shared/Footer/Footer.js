@@ -15,15 +15,15 @@ const Footer = () => {
     <div className="top-footer">
       <div className="top-footer-container">
         <div className="row">
-        <div className="col-md-3">
+        <div className="col-lg-3">
           <img className='logo' src={logo} alt="" />
           <p className='footer-paragraph'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</p>
 
         </div>
-        <div className="col-md-9 mt-3">
+        <div className="col-lg-9 mt-3">
           <div className="row">
 
-          <div className="col-md-3">
+          <div className="col-lg-3">
             <h6 className='footer-heading'>NAVIGATION</h6>
             <div className="footer-menu">
             <Link className='footer-link' to='/'>About Us</Link>
@@ -35,7 +35,7 @@ const Footer = () => {
             <Link className='footer-link' to='/'>Sitemap</Link>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3">
           <h6 className='footer-heading'>Popular Brands</h6>
             <div className="footer-menu">
             <Link className='footer-link' to='/'>Apple</Link>
@@ -47,7 +47,7 @@ const Footer = () => {
             <Link className='footer-link' to='/'>View all</Link>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3">
           <h6 className='footer-heading'>Cateogories</h6>
             <div className="footer-menu">
             <Link className='footer-link' to='/'>Shop Mac</Link>
@@ -59,7 +59,7 @@ const Footer = () => {
             <Link className='footer-link' to='/'>View All</Link>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-lg-3">
           <h6 className='footer-heading'>Information</h6>
             <div className="footer-menu">
             <div className="d-flex">

@@ -6,9 +6,9 @@
 .newslater-content{
     display: flex;
     justify-content: space-around;
-    padding: 2% 0;
+    padding: 3%;
     margin: auto;
-    max-width: 1300px;
+    max-width: 1200px;
 }
 .newslater-left h3{
     font-size: 20px;
@@ -20,29 +20,51 @@
     color: bisque;
 
 }
-.newslater-search-field{
+/* .newslater-search-field{
     width: 30%;
-}
+} */
 .search-field{
-    padding: 7px 10px;
+    padding: 3px 10px 3px 5px;
     
     border-right: none;
     border-radius: 40px 0 0 40px;
-    width: 70%;
+    width: 60%;
+   text-align: right;
 }
 .subscribe-btn{
-    padding: 7px 17px;
+    padding: 4px 10px;
     border-left: none;
     background-color: #a12559d1;
     color: bisque;
     border-radius: 0px 40px 40px 0;
     border: none;
-   margin-left: -.2rem;
+   margin-left: -.3rem;
     
 }
 
 
 @media only screen and (max-width:1200px){
-    
+
+   
+
+}
+@media only screen and (max-width:900px){
+
+    .newslater-content{
+        display: flex;
+      flex-direction: column;
+     
+      justify-content: center;
+      align-items: center;
+     
+       
+    }
+    .subscribe-btn{
+        padding: 7px 10px;
+       
+       margin-left: -.2rem;
+        
+    }
+
 }
 

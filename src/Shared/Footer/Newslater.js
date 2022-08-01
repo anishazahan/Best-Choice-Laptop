@@ -11,8 +11,8 @@ const Newslater = () => {
             <h3>NEWSLATER</h3>
             <span>Passage of Lorem Ipsum, you need tobenm.</span>
             </div>
-            <div className="newslater-search-field">
-                <input type="search" placeholder='Your Email Address' className='search-field' /> <button className='subscribe-btn'>Subscribe</button>
+            <div className="newslater-search-field mt-2">
+                <input type="text" placeholder='Your Email' className='search-field' /> <button className='subscribe-btn'>Subscribe</button>
             </div>
 
         </div>

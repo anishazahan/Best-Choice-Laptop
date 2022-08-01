@@ -5,11 +5,12 @@ import {Link} from 'react-router-dom'
 import {ImLocation} from 'react-icons/im'
 import {MdCall} from 'react-icons/md'
 import {BsFillEnvelopeFill} from 'react-icons/bs'
+import {FaCcVisa,FaCcDiscover,FaCcMastercard,FaCcPaypal,FaCcApplePay} from 'react-icons/fa'
 
 const Footer = () => {
   return (
     <div>
-      {/* {(new Date().getFullYear())} */}
+   
 
     <div className="top-footer">
       <div className="top-footer-container">
@@ -85,8 +86,40 @@ const Footer = () => {
 
     {/* /////-----last footer... */}
 
-    <div className="last-footer">
+    <div className="last-footer ">
       
+     <div className="last-footer-menu">
+     <Link to='/' className="last-footer-link">
+        About Us
+        </Link>
+     <Link to='/' className="last-footer-link">
+        Products
+        </Link>
+     <Link to='/' className="last-footer-link">
+        Return Policy
+        </Link>
+     <Link to='/' className="last-footer-link">
+        Blog
+        </Link>
+     <Link to='/' className="last-footer-link">
+        Contact Us
+        </Link>
+     <Link to='/' className="last-footer-link">
+        FAQ
+        </Link>
+     <Link to='/' className="last-footer-link">
+        Privacy Policy
+        </Link>
+     </div>
+     <p className='text-center footer-text'>Copyright    {(new Date().getFullYear())} All Rights Reserved.Powered by <span className='footer-name'>Anisha Zahan</span>  </p>
+
+     <div className="pay-icon">
+      <Link className='pay-menu' to='/'> <FaCcVisa/> </Link>
+      <Link className='pay-menu' to='/'> <FaCcDiscover/> </Link>
+      <Link className='pay-menu' to='/'> <FaCcMastercard/> </Link>
+      <Link className='pay-menu' to='/'> <FaCcPaypal/> </Link>
+      <Link className='pay-menu' to='/'> <FaCcApplePay/> </Link>
+     </div>
       
       </div> 
     

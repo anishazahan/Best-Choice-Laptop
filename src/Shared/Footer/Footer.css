@@ -109,7 +109,46 @@
 
 .last-footer{
     background: #d6dbdfe6;
-    padding: 4% 0;
+    padding: 3% 0;
+}
+.last-footer-menu{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.last-footer-link{
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    margin: 0 10px;
+    padding: 0 10px 0 0;
+    
+}
+.footer-text{
+    font-size: 13px;
+    color: rgba(0,0,0,0.6);
+    margin: 1rem 0;
+    letter-spacing: 1px;
+
+}
+.footer-name{
+    color:#a12559d1 ;
+    font-weight: 700;
+
+}
+.pay-icon{
+    display: flex;
+    justify-content: center;
+}
+.pay-menu{
+    padding: 0 10px;
+    font-size: 35px;
+    color: black;
+}
+.pay-menu:hover{
+  
+    color:#a12559d1 ;
 }
 
 

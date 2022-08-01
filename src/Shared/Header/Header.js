@@ -6,20 +6,17 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Header.css'
 import {Link} from 'react-router-dom'
 import logo from '../../../src/img/logo.png'
-// import { BsHeart} from "@react-icons/all-files/fa/BsHeart";
+import { BsHeart,BsBagCheck} from "react-icons/bs";
+import { CgProfile} from "react-icons/cg";
 
 const Header = () => {
   return (
 
 
-
-
-
-
-
-    <div className="header">
+    <div className="">
 {/* ......................top header................... */}
 
+<div className="top-header-background">
     <div className="top-header ">
         <div className="logo-container">
             <img className='logo' src={logo} alt="" />
@@ -27,14 +24,19 @@ const Header = () => {
         <div className="search mt-4">
             <input type="search" className='search-field' placeholder='Search Your Products' /><button className='search-btn'>Search</button>
         </div>
-        <div className=" side-menu-cart d-flex  mt-4">
+        <div className=" side-menu-cart mt-4">
            
-            {/* <p> <BsHeart/> wishlist</p> */}
-            <p className='side-menu'>profie</p>
-            <p className='side-menu'>Price</p>
-            <p className='side-menu'>cart</p>
-            <p className='side-menu'>wishlisht</p>
+           
+            <p className='side-menu'> <BsHeart/></p>
+            <p className='side-menu'><CgProfile/></p>
+            <p className='side-menu'> <BsBagCheck/> <sup className='sup-count'>0</sup> </p>
+            <div className="top-cart">
+              <p className='m-0'>My Cart  </p>
+              <p>$ 0.00</p>
+            </div>
+            
         </div>
+    </div>
     </div>
 
 

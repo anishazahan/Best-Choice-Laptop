@@ -1,7 +1,23 @@
 
+.header{
+   
+}
+
+.top-header-background{
+    background: #d6dbdfe6;
+    width: 100%;
+
+}
+
 .top-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    max-width: 1350px;
+    margin: auto;
+    padding: 0;
+    margin: 0 0;
+   
 }
 
 .toggole-btn{
@@ -21,19 +37,16 @@
 .logo{
     width: 200px;
     height: auto;
+    margin-bottom: .5rem;
 }
 .navItem{
-    margin-top: -2rem;
+    /* margin-top: -2rem; */
     /* margin-left: 15rem; */
-}
-.header{
-    /* margin-top: -1rem; */
-    /* max-width: 1300px; */
-    margin: auto;
-    display: block;
-    padding: 0 3%;
+    background-color: rgba(221, 221, 221, 0.105);
     max-width: 1350px;
+    margin: auto;
 }
+
 .signUp-btn{
     padding: 5px 10px;
     font-size: 15px;
@@ -77,8 +90,31 @@
 .search-btn:hover{
     background-color: #a1255982;
 }
+
+.side-menu-cart{
+    display: flex;
+    justify-content: baseline;
+
+}
 .side-menu{
     padding: 0 10px;
+    font-size: 25px;
+}
+.top-cart{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.72);
+    font-weight: 500;
+}
+.sup-count{
+    background-color: #704a86;
+    
+   padding: 0 3px;
+   border-radius: 50%;
+   color: wheat;
+   font-size: 13px;
+  
 }
 
 
@@ -100,6 +136,12 @@
         letter-spacing: .2rem;
     }
     .navItem{
+        margin-top: .4rem;
+    }
+    .search{
+      margin-top: 3rem!important;
+    }
+    .logo{
         margin-top: 1rem;
     }
 }

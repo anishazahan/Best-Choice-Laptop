@@ -1,13 +1,14 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import './Header.css'
-import {Link} from 'react-router-dom'
-import logo from '../../../src/img/logo.png'
-import { BsHeart,BsBagCheck} from "react-icons/bs";
-import { CgProfile} from "react-icons/cg";
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+// import './Header.css'
+// import {Link} from 'react-router-dom'
+// import logo from '../../../src/img/logo.png'
+// import { BsHeart,BsBagCheck} from "react-icons/bs";
+// import { CgProfile} from "react-icons/cg";
+import TopHeader from './TopHeader';
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
 
     <div className="">
 {/* ......................top header................... */}
-
+{/* 
 <div className="top-header-background">
     <div className="top-header ">
         <div className="logo-container">
@@ -47,7 +48,7 @@ const Header = () => {
    <Navbar collapseOnSelect expand="lg" className='navItem'>
      
         {/* <Navbar.Brand className='fw-bold fs-4' Link ='/'>Best Choice</Navbar.Brand> */}
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggole-btn' />
+        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggole-btn' />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Link className='menu' to ='/' >Home</Link>
@@ -65,7 +66,19 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
        
-    </Navbar>
+    </Navbar> */} 
+
+
+<TopHeader></TopHeader>
+
+
+
+
+
+
+
+
+
     </div>
 
 

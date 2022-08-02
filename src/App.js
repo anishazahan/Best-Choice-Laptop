@@ -7,8 +7,8 @@ import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
 import Products from './Pages/Products/Products';
 import Service from './Pages/Services/Service';
-import Login from './Shared/Header/Login';
-import SignUp from './Shared/Header/SignUp';
+// import Login from './Shared/Header/Login';
+// import SignUp from './Shared/Header/SignUp';
 import Contact from './Pages/Contact/Contact';
 import Notfound from './Shared/NotFound/Notfound';
 import ProductsDeatails from './Pages/Products/ProductsDeatails';
@@ -26,8 +26,8 @@ function App() {
     <Route path='/services' element={<Service></Service>}></Route>
     <Route path='/addProduct' element={<AddProduct></AddProduct>}></Route>
     <Route path='/contact' element={<Contact></Contact>}></Route>
-    <Route path='/login' element={<Login></Login>}></Route>
-    <Route path='/signUp' element={<SignUp></SignUp>}></Route>
+    {/* <Route path='/login' element={<Login></Login>}></Route>
+    <Route path='/signUp' element={<SignUp></SignUp>}></Route> */}
     <Route path='*' element={<Notfound></Notfound>}></Route>
      </Routes>
     </div>

@@ -8,7 +8,7 @@ const Products = () => {
     const [allProducts,setAllProducts] = useState(false);
     const [products,setProducts] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/product')
+        fetch('products.json')
         .then(res=>res.json())
         .then(data=>setProducts(data));
     },[])

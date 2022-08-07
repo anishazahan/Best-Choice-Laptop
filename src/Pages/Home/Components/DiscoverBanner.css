@@ -1,0 +1,45 @@
+
+.discover-background{
+    background: url(../../../img/offerbanner.jpg);
+    height: 340px;
+    width: 100%;
+background-size: cover;
+    
+}
+.discover-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100%;
+    text-align: right;
+}
+.discover-heading{
+    font-weight: 700;
+    margin-top: -.5rem;
+}
+.discover-btn{
+    background-color: transparent;
+    padding: 7px 20px;
+    color: antiquewhite;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: 2px solid #A12559;
+    transition: .5s;
+    text-align: center;
+}
+.discover-btn:hover{
+    letter-spacing: .5px;
+}
+.discover-link{
+    color: antiquewhite;
+    font-size: 14px;
+    border-bottom: 1px solid white;
+    margin-right: 5rem;
+
+}
+.discover-link:hover{
+    color: #A12559;
+}

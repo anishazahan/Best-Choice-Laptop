@@ -1,4 +1,6 @@
 import React from 'react'
+import MiddleHeader from './MiddleHeader';
+import Navbar from './Navbar';
 // import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
@@ -70,6 +72,8 @@ const Header = () => {
 
 
 <TopHeader></TopHeader>
+<MiddleHeader></MiddleHeader>
+<Navbar></Navbar>
 
 
 

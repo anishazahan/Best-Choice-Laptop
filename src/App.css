@@ -9,43 +9,7 @@
 body{
   font-family: 'Roboto Slab', serif;
 }
-.background{
-  background-color: #f6f9fc;
-  padding: 50px 0;
-}
-.container-width{
-  max-width: 90%;
-  margin: auto;
-}
-.flex{
-  display: flex;
-  justify-content: space-between;
- 
 
-}
-.c_flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-}
-.f_flex{
-  display: flex;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-li{
-  list-style: none;
-}
-.uppercase{
-  text-transform: uppercase;
-}
-.capitalize{
-  text-transform: capitalize;
-}
-.right-text{
-  text-align: right;
-}
+
 
